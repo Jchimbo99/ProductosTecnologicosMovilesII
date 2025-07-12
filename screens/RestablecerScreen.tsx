@@ -12,7 +12,7 @@ export default function RestablecerScreen() {
             .then(() => {
 
 
-                // Password reset email sent!
+                
                 Alert.alert("Mensaje", "Mensaje Enviado")
             })
             .catch((error) => {

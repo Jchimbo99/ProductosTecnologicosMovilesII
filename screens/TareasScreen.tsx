@@ -58,7 +58,7 @@ export default function TareasScreen({ navigation }: any) {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={{ padding: 20 }}>
-      {/* Switch tema arriba derecha */}
+      
       <View style={styles.switchRow}>
         <Text style={styles.switchLabel}>{theme === 'light' ? '🌞 Claro' : '🌙 Oscuro'}</Text>
         <Switch

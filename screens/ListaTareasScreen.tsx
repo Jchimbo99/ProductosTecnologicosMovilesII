@@ -19,7 +19,7 @@ export default function ListaTareasScreen() {
   const [orden, setOrden] = useState<'fecha' | 'prioridad'>('fecha');
   const navigation = useNavigation<any>();
 
-  // Consumo tema y toggle desde Zustand
+  
   const theme = useThemeStore((state: { theme: any; }) => state.theme);
   const toggleTheme = useThemeStore((state: { toggleTheme: any; }) => state.toggleTheme);
 

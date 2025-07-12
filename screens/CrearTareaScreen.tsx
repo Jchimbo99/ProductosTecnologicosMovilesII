@@ -193,14 +193,14 @@ const getStyles = (theme: 'light' | 'dark') =>
       marginRight: 12,
       fontSize: 18,
       fontWeight: '600',
-      color: theme === 'light' ? '#374151' : '#d1d5db', // gris oscuro / gris claro
+      color: theme === 'light' ? '#374151' : '#d1d5db', 
     },
     label: {
       fontWeight: '700',
       fontSize: 19,
       marginTop: 24,
       marginBottom: 10,
-      color: theme === 'light' ? '#111827' : '#e5e7eb', // casi negro / gris claro
+      color: theme === 'light' ? '#111827' : '#e5e7eb', 
     },
     input: {
       backgroundColor: theme === 'light' ? '#ffffff' : '#1f2937',

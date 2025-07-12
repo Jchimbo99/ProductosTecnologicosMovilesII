@@ -24,7 +24,7 @@ export default function HomeScreen({ navigation }: any) {
             contentContainerStyle={{ alignItems: "center", paddingBottom: 40 }}
             showsVerticalScrollIndicator={false}
         >
-            {/* Header con fondo azul y logo de tareas */}
+        
             <View style={styles.header}>
                 <Text style={styles.logoText}>TaskMaster ✅</Text>
             </View>
@@ -34,7 +34,7 @@ export default function HomeScreen({ navigation }: any) {
                 Elige una opción para comenzar a gestionar tus tareas.
             </Text>
 
-            {/* Switch para cambiar tema */}
+            
             <View style={styles.themeSwitcher}>
                 <Text style={styles.themeText}>
                     {theme === 'light' ? '🌞 Modo Claro' : '🌙 Modo Oscuro'}
